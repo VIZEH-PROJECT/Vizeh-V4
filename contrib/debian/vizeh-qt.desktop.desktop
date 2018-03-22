@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=vizeh
+Comment=vizeh P2P Cryptocurrency
+Exec=vizeh-qt %u
+Terminal=false
+Type=Application
+Icon=vizeh128
+MimeType=x-scheme-handler/vizeh;
+Categories=Office;Finance;
+Name[en_US]=vizeh-qt.desktop

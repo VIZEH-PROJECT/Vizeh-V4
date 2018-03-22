@@ -1,0 +1,26 @@
+# /etc/conf.d/vizehd: config file for /etc/init.d/vizehd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/vizeh/vizeh.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/vizehd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/vizehd.pid"
+
+# Where to write vizehd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/vizehd"
+
+# User and group to own vizehd process
+#BITCOIND_USER="vizeh"
+#BITCOIND_GROUP="vizeh"
+
+# Path to vizehd executable
+#BITCOIND_BIN="/usr/bin/vizehd"
+
+# Nice value to run vizehd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

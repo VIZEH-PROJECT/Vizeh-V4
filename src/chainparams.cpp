@@ -97,7 +97,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 30; // vizeh: 1 minute
         nTargetSpacing = 30; // vizeh: 1 minute
-        nLastPOWBlock = 69999;
+        nLastPOWBlock = 9969999;
         nMaturity = 50;
         nModifierUpdateBlock = 1;
         const char* pszTimestamp = "VIZEH NEXT MONEY REVOLUTION";
